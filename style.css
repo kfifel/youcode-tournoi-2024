@@ -1,0 +1,41 @@
+
+body {
+    background: url('s-l1600.jpg') fixed center/cover;
+    /*color: #ffffff; /* Set text color to white for better visibility on the background */
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.card-title {
+    color: #007bff; /* Bootstrap primary color for team names */
+}
+
+.list-group-item {
+    background-color: #90c59c; /* Bootstrap success color for team members */
+    /*color: #ffffff;*/
+}
+
+.badge {
+    background-color: #dc3545; /* Bootstrap danger color for team numbers */
+}
