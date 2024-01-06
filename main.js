@@ -1,5 +1,17 @@
 const teamsContainer = document.getElementById('teamsContainer');
 
+teams.forEach(team => {
+    team.ClassName = team.ClassName.toUpperCase();
+    team.Player1 = team.Player1.toUpperCase();
+    team.Player2 = team.Player2.toUpperCase();
+    team.Player3 = team.Player3.toUpperCase();
+    team.Player4 = team.Player4.toUpperCase();
+    team.Player5 = team.Player5.toUpperCase();
+    team.Player6 = team.Player6.toUpperCase();
+    team.Player7 = team.Player7.toUpperCase();
+    team.Username = team.Username.toUpperCase();
+})
+
 teams.forEach((team, index) => {
         // Create a card for each team
         const teamCard = document.createElement('div');
@@ -16,12 +28,12 @@ teams.forEach((team, index) => {
                 
                 <!-- Captain -->
                 <div class="mb-3">
-                    <p class="card-text"><i class="bi bi-person"></i> <strong>Captain:</strong> ${team.Player1}</p>
+                    <p class="card-text"><i class="bi bi-person"></i> <span class="card-subtitle text-muted">Captain :</span> <span class="captain-name list-group-item"> ${team.Player1} </span></p>
                 </div>
                 
                 <!-- Referee -->
                 <div class="mb-3">
-                    <p class="card-text"><i class="bi bi-whistle"></i> <strong>Referee in Another Match:</strong> ${team.Player2}</p>
+                    <p class="card-text"><i class="bi bi-person"></i> <span  class="card-subtitle text-muted">Referee :</span><span class="referee-name list-group-item"> ${team.Player2} </span></p>
                 </div>
                 
                 <!-- Team Members -->

@@ -32,8 +32,18 @@ h1 {
 }
 
 .list-group-item {
-    background-color: #90c59c; /* Bootstrap success color for team members */
-    /*color: #ffffff;*/
+    background-color: #58a86a; /* Bootstrap success color for team members */
+    color: #ffffff;
+}
+
+.referee-name {
+    background-color: #3fa458; /* Bootstrap success color for team members */
+    color: #ffffff;
+}
+
+.captain-name {
+    background-color: #30753f; /* Bootstrap success color for team members */
+    color: #ffffff;
 }
 
 .badge {
