@@ -1,5 +1,5 @@
 const teamsContainer = document.getElementById('teamsContainer');
-
+document.getElementById('total-teams').innerText =  '' + teams.length;
 teams.forEach(team => {
     team.ClassName = team.ClassName.toUpperCase();
     team.Player1 = team.Player1.toUpperCase();
