@@ -3,13 +3,13 @@ const teams = [
     {
         Timestamp: "2024/01/03 3:19:23 PM GMT+1",
         Username: "oukhakhalid@gmail.com",
-        Player1: "khalid oukha",
+        Player1: "Aymane Benhima",
         Player2: "bilal chbanat",
         Player3: "ossama bel-kaze",
         Player4: "ismail lafhiel",
         Player5: "Abdelghani Ait Tamghart",
         Player6: "Mohammed Miessal",
-        Player7: "Aymane Benhima",
+        Player7: "khalid oukha",
         ClassName: "Namek"
     },
     {
@@ -65,7 +65,7 @@ const teams = [
         Username: "khalidzennouhi08@gmail.com",
         Player1: "Aziz Benmalouk",
         Player2: "Anass Ait Ouaguered",
-        Player3: "Khalid El Maiti",
+        Player3: "Khalid El Mâti",
         Player4: "Nabil El hakimi",
         Player5: "Zouhir Zrazkhan",
         Player6: "Amin Baih",
