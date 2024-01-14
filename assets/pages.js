@@ -25,7 +25,7 @@ document.getElementById("matches").addEventListener('click', () => matches())
 
 function groups() {
     container.innerText = "";
-    container.innerHTML= "<h1 class='mb-3'>Teams in the Tournament</h1>"
+    container.innerHTML= "<h1 class='mb-5'>Groups in the Tournament</h1>"
     const group1 = [findTeam("Van Der Linde"),
         findTeam("Pixel Warriors"),
         findTeam("2b || ! 2b"),
@@ -68,3 +68,13 @@ function showGroups(group, groupName) {
 function findTeam(teamName) {
     return teams.find(team => team.ClassName.toUpperCase() === teamName.toUpperCase());
 }
+
+
+const buttons = document.querySelectorAll('button');
+
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        buttons.forEach(btn => btn.classList.remove('activeNav'));
+        button.classList.add('activeNav');
+    });
+});

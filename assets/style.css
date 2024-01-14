@@ -66,8 +66,12 @@ h1, h5 {
     color: white;
 }
 
-
 #home:hover, #groups:hover,  #matches:hover {
     background-color: #626a70;
     color: white;
+}
+
+button.activeNav {
+    background-color: #b9c9d3!important;
+    color: #625e5e !important;
 }
