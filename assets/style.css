@@ -49,3 +49,8 @@ h1, h5 {
 .badge {
     background-color: #dc3545; /* Bootstrap danger color for team numbers */
 }
+
+#teamSearch {
+    margin: 0 0 20px 0;
+    padding: 5px 20px;
+}

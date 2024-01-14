@@ -1,5 +1,5 @@
 const teamsContainer = document.getElementById('teamsContainer');
-document.getElementById('total-teams').innerText =  '' + teams.length;
+let teamCounter = document.getElementById('total-teams');
 teams.forEach(team => {
     team.ClassName = team.ClassName.toUpperCase();
     team.Player1 = team.Player1.toUpperCase();
@@ -11,8 +11,32 @@ teams.forEach(team => {
     team.Player7 = team.Player7.toUpperCase();
     team.Username = team.Username.toUpperCase();
 })
+// show user on load page
+showTeams(teams);
 
-teams.forEach((team, index) => {
+document.getElementById('teamSearch')
+    .addEventListener('keyup', (e) => filter(e));
+
+function filter(e) {
+    const searchString = e.target.value.toUpperCase();
+    let filteredTeams = teams.filter(team =>
+        team.ClassName.includes(searchString) ||
+        team.Player1.includes(searchString) ||
+        team.Player2.includes(searchString) ||
+        team.Player3.includes(searchString) ||
+        team.Player4.includes(searchString) ||
+        team.Player5.includes(searchString) ||
+        team.Player6.includes(searchString) ||
+        team.Player7.includes(searchString) ||
+        team.Username.includes(searchString)
+    );
+    teamsContainer.innerHTML = '';
+    showTeams(filteredTeams);
+}
+
+function showTeams(teams) {
+    teamCounter.innerText =  '' + teams.length;
+    teams.forEach((team, index) => {
         // Create a card for each team
         const teamCard = document.createElement('div');
         teamCard.className = 'col-md-4 mb-4 position-relative';
@@ -55,4 +79,5 @@ teams.forEach((team, index) => {
 
         // Append the card to the container
         teamsContainer.appendChild(teamCard);
-});
+    });
+}
