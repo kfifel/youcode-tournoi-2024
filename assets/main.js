@@ -11,6 +11,7 @@ teams.forEach(team => {
     team.Player7 = team.Player7.toUpperCase();
     team.Username = team.Username.toUpperCase();
 })
+
 // show user on load page
 showTeams(teams);
 
