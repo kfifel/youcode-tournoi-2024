@@ -56,3 +56,18 @@ h1, h5 {
     border-radius: 5px;
     border: none;
 }
+
+#home, #groups,  #matches {
+    margin: 0 0 20px 0;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #454d54;
+    color: white;
+}
+
+
+#home:hover, #groups:hover,  #matches:hover {
+    background-color: #626a70;
+    color: white;
+}

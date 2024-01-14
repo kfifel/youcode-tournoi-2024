@@ -1,5 +1,3 @@
-const teamsContainer = document.getElementById('teamsContainer');
-let teamCounter = document.getElementById('total-teams');
 teams.forEach(team => {
     team.ClassName = team.ClassName.toUpperCase();
     team.Player1 = team.Player1.toUpperCase();
@@ -11,12 +9,6 @@ teams.forEach(team => {
     team.Player7 = team.Player7.toUpperCase();
     team.Username = team.Username.toUpperCase();
 })
-
-// show user on load page
-showTeams(teams);
-
-document.getElementById('teamSearch')
-    .addEventListener('keyup', (e) => filter(e));
 
 function filter(e) {
     const searchString = e.target.value.toUpperCase();
@@ -36,6 +28,8 @@ function filter(e) {
 }
 
 function showTeams(teams) {
+    const teamsContainer = document.getElementById('teamsContainer');
+    const teamCounter = document.getElementById('total-teams');
     teamCounter.innerText =  '' + teams.length;
     teams.forEach((team, index) => {
         // Create a card for each team
