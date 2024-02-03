@@ -57,7 +57,7 @@ h1, h5 {
     border: none;
 }
 
-#home, #groups,  #matches {
+.navs-button button {
     margin: 0 0 20px 0;
     padding: 5px 20px;
     border-radius: 5px;
@@ -66,7 +66,7 @@ h1, h5 {
     color: white;
 }
 
-#home:hover, #groups:hover,  #matches:hover {
+.navs-button button:hover {
     background-color: #626a70;
     color: white;
 }
@@ -74,4 +74,9 @@ h1, h5 {
 button.activeNav {
     background-color: #b9c9d3!important;
     color: #625e5e !important;
+}
+
+.standings {
+    background-color: white;
+    opacity: 70%;
 }
