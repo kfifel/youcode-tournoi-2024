@@ -63,8 +63,8 @@ function getMatchesData() {
             // Add more matches as needed
         ],
         groupB: [
-            { team1: 'Développeur Data', team2: 'Genei Ryodan', result: ' -  ', dateTime: '2024-02-03 16:20', referee: 'Khalid fifel - Anass Ait Ouaguerd' },
-            { team1: 'La Casa del Js', team2: 'Namek', result: ' - ', dateTime: '2024-02-03 17:40', referee: 'Zakaria  Elkoh - kacimi zakaria' },
+            { team1: 'Développeur Data', team2: 'Genei Ryodan', result: '7 - 3', dateTime: '2024-02-03 16:20', referee: 'Khalid fifel - Anass Ait Ouaguerd' },
+            { team1: 'La Casa del Js', team2: 'Namek', result: '4 - 0', dateTime: '2024-02-03 17:40', referee: 'Zakaria  Elkoh - kacimi zakaria' },
             // Add more matches as needed
         ],
     };
