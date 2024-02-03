@@ -105,7 +105,7 @@ function getStandingsData() {
             { name: 'Développeur Data', points: 0, wins: 0, draws: 0, losses: 0, goals: 0, goalsEntered: 0, yellowCards: 0, redCards: 0 },
             { name: 'Genei Ryodan', points: 0, wins: 0, draws: 0, losses: 0, goals: 0, goalsEntered: 0, yellowCards: 0, redCards: 0 },
             { name: 'La Casa del Js', points: 0, wins: 0, draws: 0, losses: 0, goals: 0, goalsEntered: 0, yellowCards: 0, redCards: 0 },
-            { name: 'YouCode', points: 0, wins: 0, draws: 0, losses: 0, goals: 0, goalsEntered: 0, yellowCards: 0, redCards: 0 }, // Replace 'YouCode' with the actual team name
+            { name: 'Namek', points: 0, wins: 0, draws: 0, losses: 0, goals: 0, goalsEntered: 0, yellowCards: 0, redCards: 0 },
         ],
     };
 }
