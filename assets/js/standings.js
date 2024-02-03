@@ -4,9 +4,6 @@ function showStandings() {
     const standingsContainer = document.getElementById('container');
     standingsContainer.innerHTML = '<p>Loading standings...</p>'; // Placeholder loading message
 
-    // Assume you have a function (getStandingsData) to fetch and format standings data
-    // Replace this with actual data retrieval logic
-
     // Example data structure: { groupA: [...], groupB: [...] }
     const standingsData = getStandingsData();
 

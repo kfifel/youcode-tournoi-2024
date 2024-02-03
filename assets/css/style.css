@@ -1,6 +1,6 @@
 
 body {
-    background: url('s-l1600.jpg') fixed center/cover;
+    background: url('../s-l1600.jpg') fixed center/cover;
     /*color: #ffffff; /* Set text color to white for better visibility on the background */
 }
 
@@ -58,7 +58,6 @@ h1, h5 {
 }
 
 .navs-button button {
-    margin: 0 0 20px 0;
     padding: 5px 20px;
     border-radius: 5px;
     border: none;
@@ -79,4 +78,27 @@ button.activeNav {
 .standings {
     background-color: white;
     opacity: 70%;
+}
+
+/* Add this CSS to your existing styles */
+.table.matches {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.table.matches th,
+.table.matches td {
+    text-align: center;
+}
+
+.table.matches th {
+    background-color: #343a40; /* Header background color */
+    color: white;
+}
+
+.table.matches tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.table.matches tbody tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.3);
 }
