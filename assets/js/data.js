@@ -67,7 +67,7 @@ const teams = [
         Player2: "Anass Ait Ouaguered",
         Player3: "Khalid El Mâti",
         Player4: "Nabil El hakimi",
-        Player5: "Zouhir Zrazkhan",
+        Player5: "Zerzkhane Zouhair",
         Player6: "Amin Baih",
         Player7: "khalid zennouhi",
         ClassName: "Coders Strike"
