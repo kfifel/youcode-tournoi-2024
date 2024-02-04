@@ -59,7 +59,7 @@ function getMatchesData() {
     return {
         groupA: [
             { team1: 'Van Der Linde', team2: '2B || ! 2B', result: '2 - 3', dateTime: '2024-02-02 17:40', referee: 'Yasser Aithnini - Hamza herrass' },
-            { team1: 'Pixel Warriors', team2: 'Coders Strike', result: '  -  ', dateTime: '2024-02-04 17:00', referee: 'Khalid Oukha - Ayoub Ouabi' },
+            { team1: 'Pixel Warriors', team2: 'Coders Strike', result: '2 - 2', dateTime: '2024-02-04 17:00', referee: 'Khalid Oukha - Ayoub Ouabi' },
             // Add more matches as needed
         ],
         groupB: [

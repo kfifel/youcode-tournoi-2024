@@ -51,7 +51,7 @@ const teams = [
     {
         Timestamp: "2024/01/04 4:19:56 PM GMT+1",
         Username: "ysf.elmati@gmail.com",
-        Player1: "khalid Fifel",
+        Player1: "Khalid Fifel",
         Player2: "Mohamed Nachit",
         Player3: "Mohamed Jamh",
         Player4: "Tarek Ouachani",
