@@ -15,12 +15,12 @@ const teams = [
     {
         Timestamp: "2024/01/03 3:20:27 PM GMT+1",
         Username: "aminelfaquiri0@gmail.com",
-        Player1: "AMIN ELFAQUIRI",
+        Player1: "yonli fiedel",
         Player2: "Yassine Harrati",
         Player3: "Yasser Aithnini",
         Player4: "Saad Bentaleb",
         Player5: "Sefdine Nassuf",
-        Player6: "Amine Azemour",
+        Player6: "faical moufla",
         Player7: "Omar Dbaa",
         ClassName: "Développeur Data"
     },
@@ -40,12 +40,12 @@ const teams = [
         Timestamp: "2024/01/03 3:52:12 PM GMT+1",
         Username: "faissalaoukacha@gmail.com",
         Player1: "Rachid Daoudi",
-        Player2: "Youssef hammani",
+        Player2: "Mohamed abrach",
         Player3: "Hamza Harrass",
         Player4: "Toufik shima",
         Player5: "Youssef tadlaoui",
         Player6: "Faissal Aoukacha",
-        Player7: "Abdessamad Ziani",
+        Player7: "Issam mezgueldi",
         ClassName: "La Casa del Js"
     },
     {
@@ -57,13 +57,13 @@ const teams = [
         Player4: "Tarek Ouachani",
         Player5: "Youssef Elmati",
         Player6: "Abdelmajid Elousse",
-        Player7: "Mehdi Ez-zahri",
+        Player7: "Fouad Houdda",
         ClassName: "Van Der Linde"
     },
     {
         Timestamp: "2024/01/05 11:08:01 AM GMT+1",
         Username: "khalidzennouhi08@gmail.com",
-        Player1: "Aziz Benmalouk",
+        Player1: "Youness Erbai",
         Player2: "Anass Ait Ouaguered",
         Player3: "Khalid El Mâti",
         Player4: "Nabil El hakimi",
