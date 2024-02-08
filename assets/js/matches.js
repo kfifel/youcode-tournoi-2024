@@ -1,4 +1,3 @@
-// Event listener for the "matches" button
 document.getElementById("matches").addEventListener('click', () => showMatches());
 
 // Function to display matches

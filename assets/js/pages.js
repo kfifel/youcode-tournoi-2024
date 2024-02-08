@@ -36,12 +36,20 @@ function groups() {
         findTeam("Genei Ryodan"),
         findTeam("La Casa del Js")];
 
+    let groupsContainer = document.createElement("div");
+    groupsContainer.className = "row row-cols-1 row-cols-md-2 g-4";
+
     // Show groups
-    showGroups(group1, 'Group A');
-    showGroups(group2, 'Group B');
+    let groups1 = groupsInfoToDiv(group1, 'Group A');
+    let groups2 = groupsInfoToDiv(group2, 'Group B');
+
+    groupsContainer.appendChild(groups1);
+    groupsContainer.appendChild(groups2);
+
+    container.appendChild(groupsContainer);
 }
 
-function showGroups(group, groupName) {
+function groupsInfoToDiv(group, groupName) {
     const groupCard = document.createElement('div');
     groupCard.className = 'col-md-6 mb-4';
     groupCard.innerHTML = `
@@ -61,8 +69,7 @@ function showGroups(group, groupName) {
         </div>
     `;
 
-    // Append the group card to the container
-    container.appendChild(groupCard);
+    return groupCard;
 }
 
 function findTeam(teamName) {
@@ -70,6 +77,7 @@ function findTeam(teamName) {
 }
 
 
+// update the color of the active button
 const buttons = document.querySelectorAll('button');
 
 buttons.forEach(button => {

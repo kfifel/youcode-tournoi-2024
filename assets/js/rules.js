@@ -1,6 +1,3 @@
-// rules.js
-
-// Event listener for the "rules" button
 document.getElementById("rules").addEventListener('click', () => showRules());
 
 // Function to display tournament rules
