@@ -126,3 +126,7 @@ button.activeNav {
     color: rebeccapurple!important;
 }
 
+.matches tbody tr.result-row:hover {
+    background-color: #0bda3b;
+    cursor: pointer;
+}
