@@ -61,14 +61,14 @@ function getMatchesData() {
             { team1: 'Pixel Warriors', team2: 'Coders Strike', result: '2 - 2', dateTime: '2024-02-04 17:00', referee: 'Khalid Oukha - Ayoub Ouabi' },
             { team1: '', team2: '', result: '', dateTime: '', referee: '' },
             { team1: 'Van Der Linde', team2: 'Pixel Warriors', result: '1 - 1', dateTime: '2024-02-08 17:40', referee: 'Anass Ait Ouaguerd - Mohamed Nachit' },
-            { team1: '2B || ! 2B', team2: 'Coders Strike', result: '  -  ', dateTime: '2024-02-11 16:20', referee: 'Khalid Oukha - Ayoub Ouabi' },
+            { team1: '2B || ! 2B', team2: 'Coders Strike', result: '4 - 2', dateTime: '2024-02-11 16:20', referee: 'Khalid Oukha - Ayoub Ouabi' },
         ],
         groupB: [
             { team1: 'Développeur Data', team2: 'Genei Ryodan', result: '7 - 3', dateTime: '2024-02-03 16:20', referee: 'Khalid fifel - Anass Ait Ouaguerd' },
             { team1: 'La Casa del Js', team2: 'Namek', result: '4 - 0', dateTime: '2024-02-03 17:40', referee: 'Zakaria  Elkoh - kacimi zakaria' },
             { team1: '', team2: '', result: '', dateTime: '', referee: '' },
             { team1: 'Développeur Data', team2: 'Namek', result: '  -  ', dateTime: '2024-02-09 17:40', referee: 'kacimi zakaria - Anas Elmakhloufi' },
-            { team1: 'La Casa del Js', team2: 'Genei Ryodan', result: '  -  ', dateTime: '2024-02-11 17:40', referee: 'Zakaria  Elkoh - kacimi zakaria' },
+            { team1: 'La Casa del Js', team2: 'Genei Ryodan', result: '2  -  3', dateTime: '2024-02-11 17:40', referee: 'Zakaria  Elkoh - kacimi zakaria' },
         ],
     };
 }

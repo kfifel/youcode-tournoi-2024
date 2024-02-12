@@ -97,14 +97,14 @@ function getStandingsData() {
     return {
         groupA: [
             { name: 'Van Der Linde', points: 1, wins: 0, draws: 1, losses: 1, goals: 3, goalsEntered: 4, yellowCards: 2, redCards: 0 },
-            { name: '2B || ! 2B', points: 3, wins: 1, draws: 0, losses: 0, goals: 3, goalsEntered: 2, yellowCards: 0, redCards: 0 },
+            { name: '2B || ! 2B', points: 6, wins: 2, draws: 0, losses: 0, goals: 7, goalsEntered: 4, yellowCards: 3, redCards: 0 },
             { name: 'Pixel Warriors', points: 2, wins: 0, draws: 2, losses: 0, goals: 3, goalsEntered: 3, yellowCards: 2, redCards: 0 },
-            { name: 'Coders Strike', points: 1, wins: 0, draws: 1, losses: 0, goals: 2, goalsEntered: 2, yellowCards: 2, redCards: 0 },
+            { name: 'Coders Strike', points: 1, wins: 0, draws: 1, losses: 1, goals: 4, goalsEntered: 6, yellowCards: 3, redCards: 0 },
         ],
         groupB: [
             { name: 'Développeur Data', points: 3, wins: 1, draws: 0, losses: 0, goals: 7, goalsEntered: 3, yellowCards: 1, redCards: 0 },
-            { name: 'Genei Ryodan', points: 0, wins: 0, draws: 0, losses: 1, goals: 3, goalsEntered: 7, yellowCards: 0, redCards: 0 },
-            { name: 'La Casa del Js', points: 3, wins: 1, draws: 0, losses: 0, goals: 4, goalsEntered: 0, yellowCards: 1, redCards: 0 },
+            { name: 'Genei Ryodan', points: 3, wins: 1, draws: 0, losses: 1, goals: 6, goalsEntered: 9, yellowCards: 1, redCards: 0 },
+            { name: 'La Casa del Js', points: 3, wins: 1, draws: 0, losses: 1, goals: 6, goalsEntered: 3, yellowCards: 5, redCards: 0 },
             { name: 'Namek', points: 0, wins: 0, draws: 0, losses: 1, goals: 0, goalsEntered: 4, yellowCards: 2, redCards: 0 },
         ],
     };
