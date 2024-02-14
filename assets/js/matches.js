@@ -14,7 +14,7 @@ function getMatchesData() {
             { team1: 'Développeur Data', team2: 'Genei Ryodan', result: '7 - 3', dateTime: '2024-02-03 16:20', referee: 'Khalid fifel - Anass Ait Ouaguerd' },
             { team1: 'La Casa del Js', team2: 'Namek', result: '4 - 0', dateTime: '2024-02-03 17:40', referee: 'Zakaria  Elkoh - kacimi zakaria' },
             { team1: '', team2: '', result: '', dateTime: '', referee: '' },
-            { team1: 'Développeur Data', team2: 'Namek', result: '  -  ', dateTime: '2024-02-09 17:40', referee: 'kacimi zakaria - Anas Elmakhloufi' },
+            { team1: 'Développeur Data', team2: 'Namek', result: '1  -  5', dateTime: '2024-02-09 17:40', referee: 'kacimi zakaria - Anas Elmakhloufi' },
             { team1: 'La Casa del Js', team2: 'Genei Ryodan', result: '2  -  3', dateTime: '2024-02-11 17:40', referee: 'Zakaria  Elkoh - kacimi zakaria' },
         ],
     };
@@ -82,7 +82,7 @@ function showMatchDetails(match) {
     modal.innerHTML = `
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-header bg-primary text-white">
+                <div class="modal-header text-white" style="background-color: #454d54">
                     <h5 class="modal-title">${match.team1} vs ${match.team2}</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
