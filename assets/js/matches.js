@@ -9,6 +9,9 @@ function getMatchesData() {
             { team1: '', team2: '', result: '', dateTime: '', referee: '' },
             { team1: 'Van Der Linde', team2: 'Pixel Warriors', result: '1 - 1', dateTime: '2024-02-08 17:40', referee: 'Anass Ait Ouaguerd - Mohamed Nachit' },
             { team1: '2B || ! 2B', team2: 'Coders Strike', result: '4 - 2', dateTime: '2024-02-11 16:20', referee: 'Khalid Oukha - Ayoub Ouabi' },
+            { team1: '', team2: '', result: '', dateTime: '', referee: '' },
+            { team1: 'Van Der Linde', team2: 'Coders Strike', result: '  -  ', dateTime: '2024-02-16 16:20', referee: 'Yassine Harrati  - Ayoub Ouabi' },
+            { team1: '2B || ! 2B', team2: 'Pixel Warriors', result: '  -  ', dateTime: '2024-02-20 17:40', referee: ' Mohamed Abrache  -  Bilal Chbanat' },
         ],
         groupB: [
             { team1: 'Développeur Data', team2: 'Genei Ryodan', result: '7 - 3', dateTime: '2024-02-03 16:20', referee: 'Khalid fifel - Anass Ait Ouaguerd' },
@@ -16,6 +19,9 @@ function getMatchesData() {
             { team1: '', team2: '', result: '', dateTime: '', referee: '' },
             { team1: 'Développeur Data', team2: 'Namek', result: '1  -  5', dateTime: '2024-02-09 17:40', referee: 'kacimi zakaria - Anas Elmakhloufi' },
             { team1: 'La Casa del Js', team2: 'Genei Ryodan', result: '2  -  3', dateTime: '2024-02-11 17:40', referee: 'Zakaria  Elkoh - kacimi zakaria' },
+            { team1: '', team2: '', result: '', dateTime: '', referee: '' },
+            { team1: 'Genei Ryodan', team2: 'Namek', result: '  -  ', dateTime: '2024-02-17 17:40', referee: 'Mohamed Nachit - Anass Ait Ouaguerd' },
+            { team1: 'La Casa del Js', team2: 'FC Ghoulam', result: '  -  ', dateTime: '2024/--/-- --:--', referee: '___ - ___' },
         ],
     };
 }
@@ -42,7 +48,8 @@ function showMatches() {
         table.innerHTML = `
             <thead>
                 <tr>
-                    <th scope="col">#</th>
+                    <th scope="col" width="80px">Round</th>
+                    <th scope="col" width="30px">N°</th>
                     <th scope="col">Team 1</th>
                     <th scope="col">Result</th>
                     <th scope="col">Team 2</th>
@@ -54,21 +61,38 @@ function showMatches() {
             </tbody>
         `;
 
-        // Populate table rows
+        let roundNumber = 1;
+
         groupMatches.forEach((match, index) => {
             const row = document.createElement('tr');
-            row.innerHTML = `
-                <th scope="row">${index + 1}</th>
-                <td>${match.team1}</td>
-                <td>${match.result}</td>
-                <td>${match.team2}</td>
-                <td>${match.dateTime}</td>
-            `;
+            if (index % 3 === 0) {
+                const rowspanCell = document.createElement('th');
+                rowspanCell.setAttribute('scope', 'row');
+                rowspanCell.setAttribute('rowspan', '2');
+                rowspanCell.textContent = (roundNumber++).toString();
+                rowspanCell.style.backgroundColor = '#3fa458'; // Apply background color
+                row.appendChild(rowspanCell);
+            }
+            if (match.team1 !== '') {
+                row.innerHTML += `
+            <th scope="row">${index + 1}</th>
+            <td>${match.team1}</td>
+            <td>${match.result}</td>
+            <td>${match.team2}</td>
+            <td>${match.dateTime}</td>
+        `;
+            } else {
+                row.classList.add('null-row');
+                row.innerHTML += `
+            <th scope="row" colspan="6"></th>
+        `;
+            }
             if (match.result !== '') {
                 row.addEventListener('click', () => showMatchDetails(match));
                 row.classList.add('result-row');
             }
             table.querySelector('tbody').appendChild(row);
+
         });
 
         matchesContainer.appendChild(table);

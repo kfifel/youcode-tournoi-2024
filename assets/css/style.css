@@ -134,3 +134,7 @@ button.activeNav {
 .bg-dark-site {
     background-color: #343a40!important;
 }
+
+.null-row {
+    background-color: rgba(52, 58, 64)!important;
+}
