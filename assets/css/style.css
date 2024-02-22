@@ -105,24 +105,27 @@ button.activeNav {
 
 /* Add this to your CSS file or within a <style> tag in the HTML file */
 .rules-container {
-    background-color: rgba(255, 255, 255, 0.7)!important; /* White background with 70% opacity */
-    padding: 20px!important; /* Add padding for better visibility */
-    color: #333!important; /* Darker text color for better contrast */
-    font-size: 26px!important; /* Adjust the font size as needed */
-    line-height: 1.6!important; /* Adjust the line height for better readability */
+    background-color: rgba(255, 255, 255, 0.8)!important;
+    padding: 24px!important;
+    color: #333!important;
+    font-family: 'Times New Roman', Times, serif!important;
+    font-size: 16px!important;
+    line-height: 1.6!important;
+    border-radius: 10px!important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)!important;
 }
 
 .rules-container h2, .rules-container h3 {
-    color: #007bff!important; /* Blue color for headings */
+    color: #007bff!important;
 }
 
 .rules-container ol {
-    margin-bottom: 15px!important; /* Add margin to the bottom of ordered lists */
+    margin-bottom: 15px!important;
 }
 
 .rules-container p {
-    font-weight: bold!important; /* Make the paragraph text bold */
-    margin-bottom: 10px!important; /* Add margin to the bottom of paragraphs */
+    font-weight: bold!important;
+    margin-bottom: 5px!important;
     color: rebeccapurple!important;
 }
 

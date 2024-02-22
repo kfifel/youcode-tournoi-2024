@@ -11,7 +11,7 @@ function getMatchesData() {
             { team1: '2B || ! 2B', team2: 'Coders Strike', result: '4 - 2', dateTime: '2024-02-11 16:20', referee: 'Khalid Oukha - Ayoub Ouabi' },
             { team1: '', team2: '', result: '', dateTime: '', referee: '' },
             { team1: 'Van Der Linde', team2: 'Coders Strike', result: '4 - 3', dateTime: '2024-02-17 16:20', referee: 'Abdellah EL Ghoulam  - Ayoub Ouabi' },
-            { team1: '2B || ! 2B', team2: 'Pixel Warriors', result: '  -  ', dateTime: '2024-02-20 17:40', referee: ' Mohamed Abrache  -  Bilal Chbanat' },
+            { team1: '2B || ! 2B', team2: 'Pixel Warriors', result: '1  -  3', dateTime: '2024-02-20 17:40', referee: ' Mohamed Abrache  -  Bilal Chbanat' },
         ],
         groupB: [
             { team1: 'Développeur Data', team2: 'Genei Ryodan', result: '7 - 3', dateTime: '2024-02-03 16:20', referee: 'Khalid fifel - Anass Ait Ouaguerd' },
@@ -21,7 +21,7 @@ function getMatchesData() {
             { team1: 'La Casa del Js', team2: 'Genei Ryodan', result: '2  -  3', dateTime: '2024-02-11 17:40', referee: 'Zakaria  Elkoh - kacimi zakaria' },
             { team1: '', team2: '', result: '', dateTime: '', referee: '' },
             { team1: 'Genei Ryodan', team2: 'Namek', result: '2 - 3', dateTime: '2024-02-17 17:40', referee: 'Mohamed Nachit - Anass Ait Ouaguerd' },
-            { team1: 'La Casa del Js', team2: 'FC Ghoulam', result: '  -  ', dateTime: '2024/--/-- --:--', referee: '___ - ___' },
+            { team1: 'La Casa del Js', team2: 'FC Ghoulam', result: '  -  ', dateTime: '2024/02/23 17:40', referee: 'Anas Elmakhloufi - kacimi zakaria' },
         ],
     };
 }

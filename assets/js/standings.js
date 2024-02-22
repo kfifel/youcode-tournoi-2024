@@ -93,9 +93,9 @@ function sortTeams(teamA, teamB) {
 function getStandingsData() {
     return {
         groupA: [
-            { name: '2B || ! 2B', points: 6, wins: 2, draws: 0, losses: 0, goals: 7, goalsEntered: 4, yellowCards: 3, redCards: 0 },
+            { name: '2B || ! 2B', points: 6, wins: 2, draws: 0, losses: 1, goals: 8, goalsEntered: 7, yellowCards: 3, redCards: 0 },
+            { name: 'Pixel Warriors', points: 5, wins: 1, draws: 2, losses: 0, goals: 6, goalsEntered: 4, yellowCards: 2, redCards: 0 },
             { name: 'Van Der Linde', points: 4, wins: 1, draws: 1, losses: 1, goals: 7, goalsEntered: 7, yellowCards: 2, redCards: 0 },
-            { name: 'Pixel Warriors', points: 2, wins: 0, draws: 2, losses: 0, goals: 3, goalsEntered: 3, yellowCards: 2, redCards: 0 },
             { name: 'Coders Strike', points: 1, wins: 0, draws: 1, losses: 2, goals: 7, goalsEntered: 10, yellowCards: 3, redCards: 0 },
         ],
         groupB: [
