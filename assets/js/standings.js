@@ -99,9 +99,9 @@ function getStandingsData() {
             { name: 'Coders Strike', points: 1, wins: 0, draws: 1, losses: 2, goals: 7, goalsEntered: 10, yellowCards: 3, redCards: 0 },
         ],
         groupB: [
+            { name: 'La Casa del Js', points: 6, wins: 2, draws: 0, losses: 1, goals: 9, goalsEntered: 5, yellowCards: 5, redCards: 0 },
             { name: 'Namek', points: 6, wins: 2, draws: 0, losses: 1, goals: 8, goalsEntered: 7, yellowCards: 2, redCards: 0 },
-            { name: 'La Casa del Js', points: 3, wins: 1, draws: 0, losses: 1, goals: 6, goalsEntered: 3, yellowCards: 5, redCards: 0 },
-            { name: 'Développeur Data', points: 3, wins: 1, draws: 0, losses: 1, goals: 8, goalsEntered: 8, yellowCards: 2, redCards: 0 },
+            { name: 'Développeur Data', points: 3, wins: 1, draws: 0, losses: 2, goals: 10, goalsEntered: 11, yellowCards: 2, redCards: 0 },
             { name: 'Genei Ryodan', points: 3, wins: 1, draws: 0, losses: 2, goals: 8, goalsEntered: 11, yellowCards: 1, redCards: 0 },
         ],
     };
