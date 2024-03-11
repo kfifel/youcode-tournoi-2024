@@ -1,6 +1,18 @@
 
 const teams = [
     {
+        Timestamp: "2024/01/05 2:04:45 PM GMT+1",
+        Username: "zakaria.elkoh10@gmail.com",
+        Player1: "Zakaria Elkoh",
+        Player2: "Anas elmakhloufi",
+        Player3: "Ali Fihar",
+        Player4: "Acharouaou Mohamed",
+        Player5: "Rachid Chafei",
+        Player6: "Abdeltif Tawil",
+        Player7: "Omar Ennedi",
+        ClassName: "2b || ! 2b"
+    },
+    {
         Timestamp: "2024/01/03 3:19:23 PM GMT+1",
         Username: "oukhakhalid@gmail.com",
         Player1: "Aymane Benhima",
@@ -71,18 +83,6 @@ const teams = [
         Player6: "Amin Baih",
         Player7: "khalid zennouhi",
         ClassName: "Coders Strike"
-    },
-    {
-        Timestamp: "2024/01/05 2:04:45 PM GMT+1",
-        Username: "zakaria.elkoh10@gmail.com",
-        Player1: "Zakaria Elkoh",
-        Player2: "Anas elmakhloufi",
-        Player3: "Ali Fihar",
-        Player4: "Acharouaou Mohamed",
-        Player5: "Rachid Chafei",
-        Player6: "Abdeltif Tawil",
-        Player7: "Omar Ennedi",
-        ClassName: "2b || ! 2b"
     },
     {
         Timestamp: "2024/01/05 3:15:28 PM GMT+1",

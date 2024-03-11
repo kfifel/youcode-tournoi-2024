@@ -31,7 +31,7 @@ function showTeams(teams) {
     const teamsContainer = document.getElementById('teamsContainer');
     const teamCounter = document.getElementById('total-teams');
     teamCounter.innerText =  '' + teams.length;
-    teams.forEach((team, index) => {
+    teams.forEach((team) => {
         // Create a card for each team
         const teamCard = document.createElement('div');
         teamCard.className = 'col-md-4 mb-4 position-relative';
@@ -40,11 +40,7 @@ function showTeams(teams) {
         teamCard.innerHTML = `
         <div class="card h-100">
             <div class="card-body">
-                <div class="position-absolute top-0 end-0 p-2 rounded-end">
-                    <span class="badge bg-primary">${index + 1}</span>
-                </div>
-                <h5 class="card-title text-primary mb-4"><i class="bi bi-trophy"></i> Team: ${team.ClassName}</h5>
-                
+                <h5 class="card-title text-primary mb-4">${team.ClassName.includes('2B || ! 2B') ? `<i class="bi bi-trophy-fill text-warning"></i> ${team.ClassName} <i class="bi bi-trophy-fill text-warning"></i>` : `Team: ${team.ClassName}`}</h5>                
                 <!-- Captain -->
                 <div class="mb-3">
                     <p class="card-text"><i class="bi bi-person"></i> <span class="card-subtitle text-muted">Captain :</span> <span class="captain-name list-group-item"> ${team.Player1} </span></p>

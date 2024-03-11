@@ -141,3 +141,8 @@ button.activeNav {
 .null-row {
     background-color: rgba(52, 58, 64)!important;
 }
+
+.winner-team {
+    background-color: #6ed787 !important;
+    color: #ffffff!important;
+}

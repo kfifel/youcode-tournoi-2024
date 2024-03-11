@@ -20,7 +20,6 @@ function home() {
 document.getElementById("home").addEventListener('click', () => home())
 
 document.getElementById("groups").addEventListener('click', () => groups())
-document.getElementById("matches").addEventListener('click', () => matches())
 
 
 function groups() {
