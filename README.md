@@ -4,14 +4,14 @@
         matches, results, and news about the tournament.</p>
     <h2>Table of Contents</h2>
     <ul>
-        <li><a rel="noreferrer" href="#live-site">Live Site</a></li>
-        <li><a rel="noreferrer" href="#features">Features</a></li>
-        <li><a rel="noreferrer" href="#technologies-used">Technologies Used</a></li>
-        <li><a rel="noreferrer" href="#setup-and-installation">Setup and Installation</a></li>
-        <li><a rel="noreferrer" href="#usage">Usage</a></li>
-        <li><a rel="noreferrer" href="#contributing">Contributing</a></li>
-        <li><a rel="noreferrer" href="#license">License</a></li>
-        <li><a rel="noreferrer" href="#contact">Contact</a></li>
+        <li><a rel="noreferrer" href="https://kfifel.github.io/youcode-tournoi-2024/#live-site">Live Site</a></li>
+        <li><a rel="noreferrer" href="https://kfifel.github.io/youcode-tournoi-2024/#features">Features</a></li>
+        <li><a rel="noreferrer" href="https://kfifel.github.io/youcode-tournoi-2024/#technologies-used">Technologies Used</a></li>
+        <li><a rel="noreferrer" href="https://kfifel.github.io/youcode-tournoi-2024/#setup-and-installation">Setup and Installation</a></li>
+        <li><a rel="noreferrer" href="https://kfifel.github.io/youcode-tournoi-2024/#usage">Usage</a></li>
+        <li><a rel="noreferrer" href="https://kfifel.github.io/youcode-tournoi-2024/#contributing">Contributing</a></li>
+        <li><a rel="noreferrer" href="https://kfifel.github.io/youcode-tournoi-2024/#license">License</a></li>
+        <li><a rel="noreferrer" href="https://kfifel.github.io/youcode-tournoi-2024/#contact">Contact</a></li>
     </ul>
     <h2>Live Site</h2>
     <p>You can access the live version of the website here: <a rel="noreferrer" target="_new"
@@ -93,8 +93,8 @@
     <h2>Contact</h2>
     <p>For any inquiries or feedback, please contact:</p>
     <ul>
-        <li><strong>Name</strong>: [Your Name]</li>
-        <li><strong>Email</strong>: [Your Email]</li>
+        <li><strong>Name</strong>: KHALID FIFEL</li>
+        <li><strong>Email</strong>: fifel.khalid11@gmail.com</li>
         <li><strong>GitHub</strong>: <a rel="noreferrer" target="_new" href="https://github.com/kfifel">kfifel</a></li>
     </ul>
 </div>
