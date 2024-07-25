@@ -1,69 +1,50 @@
-<div class="markdown prose w-full break-words dark:prose-invert light"><p>Sure, here's the content formatted as a
-    Markdown (<code>.md</code>) file:</p>
-    <pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div
-            class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>markdown</span><div
-            class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg
-            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="icon-sm"><path
-            fill="currentColor" fill-rule="evenodd"
-            d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z"
-            clip-rule="evenodd"></path></svg>Copier le code</button></span></div></div><div class="overflow-y-auto p-4"
+<div class="markdown prose w-full break-words dark:prose-invert light">
+    <h1>YouCode Football Tournament 2024</h1>
+    <p>Welcome to the YouCode Football Tournament 2024! This web application allows you to stay updated with the latest
+        matches, results, and news about the tournament.</p>
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a rel="noreferrer" href="#live-site">Live Site</a></li>
+        <li><a rel="noreferrer" href="#features">Features</a></li>
+        <li><a rel="noreferrer" href="#technologies-used">Technologies Used</a></li>
+        <li><a rel="noreferrer" href="#setup-and-installation">Setup and Installation</a></li>
+        <li><a rel="noreferrer" href="#usage">Usage</a></li>
+        <li><a rel="noreferrer" href="#contributing">Contributing</a></li>
+        <li><a rel="noreferrer" href="#license">License</a></li>
+        <li><a rel="noreferrer" href="#contact">Contact</a></li>
+    </ul>
+    <h2>Live Site</h2>
+    <p>You can access the live version of the website here: <a rel="noreferrer" target="_new"
+                                                               href="https://kfifel.github.io/youcode-tournoi-2024/">YouCode
+        Football Tournament 2024</a></p>
+    <h2>Features</h2>
+    <ul>
+        <li><strong>Home</strong>: Overview of the tournament.</li>
+        <li><strong>Groups</strong>: Information on the different groups and their standings.</li>
+        <li><strong>Matches</strong>: Detailed schedule and results of matches.</li>
+        <li><strong>Standings</strong>: Current standings of teams in the tournament.</li>
+        <li><strong>Rules</strong>: Official rules and regulations of the tournament.</li>
+    </ul>
+    <h2>Technologies Used</h2>
+    <ul>
+        <li><strong>HTML5</strong>: Structure of the website.</li>
+        <li><strong>CSS3</strong>: Styling and layout.</li>
+        <li><strong>Bootstrap 5</strong>: Responsive design and UI components.</li>
+        <li><strong>JavaScript</strong>: Interactive elements and data handling.</li>
+    </ul>
+    <h2>Setup and Installation</h2>
+    <p>To run this project locally, follow these steps:</p>
+    <ol>
+        <li><strong>Clone the repository:</strong></li>
+    </ol>
+    <pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="overflow-y-auto p-4"
                                                                                             dir="ltr"><code
-            class="!whitespace-pre hljs language-markdown"><span
-            class="hljs-section"># YouCode Football Tournament 2024</span>
-
-Welcome to the YouCode Football Tournament 2024! This web application allows you to stay updated with the latest matches, results, and news about the tournament.
-
-<span class="hljs-section">## Table of Contents</span>
-<span class="hljs-bullet">-</span> [<span class="hljs-string">Live Site</span>](<span
-                class="hljs-link">#live-site</span>)
-<span class="hljs-bullet">-</span> [<span class="hljs-string">Features</span>](<span class="hljs-link">#features</span>)
-<span class="hljs-bullet">-</span> [<span class="hljs-string">Technologies Used</span>](<span class="hljs-link">#technologies-used</span>)
-<span class="hljs-bullet">-</span> [<span class="hljs-string">Setup and Installation</span>](<span class="hljs-link">#setup-and-installation</span>)
-<span class="hljs-bullet">-</span> [<span class="hljs-string">Usage</span>](<span class="hljs-link">#usage</span>)
-<span class="hljs-bullet">-</span> [<span class="hljs-string">Contributing</span>](<span
-                class="hljs-link">#contributing</span>)
-<span class="hljs-bullet">-</span> [<span class="hljs-string">License</span>](<span class="hljs-link">#license</span>)
-<span class="hljs-bullet">-</span> [<span class="hljs-string">Contact</span>](<span class="hljs-link">#contact</span>)
-
-<span class="hljs-section">## Live Site</span>
-
-You can access the live version of the website here: [<span class="hljs-string">YouCode Football Tournament 2024</span>](<span
-                class="hljs-link">https://kfifel.github.io/youcode-tournoi-2024/</span>)
-
-<span class="hljs-section">## Features</span>
-
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Home**</span>: Overview of the tournament.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Groups**</span>: Information on the different groups and their standings.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Matches**</span>: Detailed schedule and results of matches.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Standings**</span>: Current standings of teams in the tournament.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Rules**</span>: Official rules and regulations of the tournament.
-
-<span class="hljs-section">## Technologies Used</span>
-
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**HTML5**</span>: Structure of the website.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**CSS3**</span>: Styling and layout.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**Bootstrap 5**</span>: Responsive design and UI components.
-<span class="hljs-bullet">-</span> <span class="hljs-strong">**JavaScript**</span>: Interactive elements and data handling.
-
-<span class="hljs-section">## Setup and Installation</span>
-
-To run this project locally, follow these steps:
-
-<span class="hljs-bullet">1.</span> <span class="hljs-strong">**Clone the repository:**</span>
-
-<span class="hljs-code">```sh
-git clone https://github.com/kfifel/youcode-tournoi-2024.git
-</span></code></div></div></pre>
+            class="!whitespace-pre hljs language-sh">git <span class="hljs-built_in">clone</span> https://github.com/kfifel/youcode-tournoi-2024.git
+</code></div></div></pre>
     <ol start="2">
         <li><strong>Navigate to the project directory:</strong></li>
     </ol>
-    <pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div
-            class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>sh</span><div
-            class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg
-            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="icon-sm"><path
-            fill="currentColor" fill-rule="evenodd"
-            d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z"
-            clip-rule="evenodd"></path></svg>Copier le code</button></span></div></div><div class="overflow-y-auto p-4"
+    <pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="overflow-y-auto p-4"
                                                                                             dir="ltr"><code
             class="!whitespace-pre hljs language-sh"><span class="hljs-built_in">cd</span> youcode-tournoi-2024
 </code></div></div></pre>
@@ -86,39 +67,21 @@ git clone https://github.com/kfifel/youcode-tournoi-2024.git
         <li><strong>Fork the repository.</strong></li>
         <li><strong>Create a new branch:</strong></li>
     </ol>
-    <pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div
-            class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>sh</span><div
-            class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg
-            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="icon-sm"><path
-            fill="currentColor" fill-rule="evenodd"
-            d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z"
-            clip-rule="evenodd"></path></svg>Copier le code</button></span></div></div><div class="overflow-y-auto p-4"
+    <pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="overflow-y-auto p-4"
                                                                                             dir="ltr"><code
             class="!whitespace-pre hljs language-sh">git checkout -b feature/YourFeatureName
 </code></div></div></pre>
     <ol start="3">
         <li><strong>Make your changes and commit them:</strong></li>
     </ol>
-    <pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div
-            class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>sh</span><div
-            class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg
-            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="icon-sm"><path
-            fill="currentColor" fill-rule="evenodd"
-            d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z"
-            clip-rule="evenodd"></path></svg>Copier le code</button></span></div></div><div class="overflow-y-auto p-4"
+    <pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="overflow-y-auto p-4"
                                                                                             dir="ltr"><code
             class="!whitespace-pre hljs language-sh">git commit -m <span class="hljs-string">'Add some feature'</span>
 </code></div></div></pre>
     <ol start="4">
         <li><strong>Push to the branch:</strong></li>
     </ol>
-    <pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div
-            class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>sh</span><div
-            class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg
-            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="icon-sm"><path
-            fill="currentColor" fill-rule="evenodd"
-            d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z"
-            clip-rule="evenodd"></path></svg>Copier le code</button></span></div></div><div class="overflow-y-auto p-4"
+    <pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="overflow-y-auto p-4"
                                                                                             dir="ltr"><code
             class="!whitespace-pre hljs language-sh">git push origin feature/YourFeatureName
 </code></div></div></pre>
@@ -134,18 +97,4 @@ git clone https://github.com/kfifel/youcode-tournoi-2024.git
         <li><strong>Email</strong>: [Your Email]</li>
         <li><strong>GitHub</strong>: <a rel="noreferrer" target="_new" href="https://github.com/kfifel">kfifel</a></li>
     </ul>
-    <pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div
-            class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>css</span><div
-            class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg
-            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="icon-sm"><path
-            fill="currentColor" fill-rule="evenodd"
-            d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z"
-            clip-rule="evenodd"></path></svg>Copier le code</button></span></div></div><div class="overflow-y-auto p-4"
-                                                                                            dir="ltr"><code
-            class="!whitespace-pre hljs language-css">
-Feel free <span class="hljs-selector-tag">to</span> replace placeholders like `<span class="hljs-selector-attr">[Your Name]</span>` and `<span
-            class="hljs-selector-attr">[Your Email]</span>` with your actual <span
-            class="hljs-selector-tag">details</span>. Save this <span class="hljs-attribute">content</span> into <span
-            class="hljs-selector-tag">a</span> file named `README<span class="hljs-selector-class">.md</span>`.
-</code></div></div></pre>
 </div>
